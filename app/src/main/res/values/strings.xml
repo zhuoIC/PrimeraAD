@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Yatusabe</string>
+    <string name="txv_message">Fecha y hora</string>
+    <string name="btn_message">Obtener fecha y hora</string>
+</resources>

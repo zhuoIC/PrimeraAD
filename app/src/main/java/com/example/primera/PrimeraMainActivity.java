@@ -8,6 +8,11 @@ import android.widget.TextView;
 
 import java.util.Date;
 
+/**
+ * Esta clase muestra una imagen con la hora local que se actualiza al pulsar el botón
+ * @author Nicolás Hernández Jiménez
+ */
+
 public class PrimeraMainActivity extends AppCompatActivity implements View.OnClickListener{
 
     TextView texto;
@@ -30,6 +35,7 @@ public class PrimeraMainActivity extends AppCompatActivity implements View.OnCli
         }
     }
 
+    // Muestra en el TextView la hora actual
     private void actualizar() {
         texto.setText(new Date().toString());
     }

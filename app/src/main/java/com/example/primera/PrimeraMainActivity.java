@@ -15,8 +15,8 @@ import java.util.Date;
 
 public class PrimeraMainActivity extends AppCompatActivity implements View.OnClickListener{
 
-    TextView texto;
-    Button button;
+    private TextView texto;
+    private Button button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
